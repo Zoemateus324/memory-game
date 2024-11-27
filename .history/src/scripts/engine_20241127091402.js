@@ -58,7 +58,7 @@ function checkMatch() {
 
     openCards = [];
 
-    if (document.querySelectorAll(".boxMatch").length === emojis.length) {
-        alert("Você venceu o jogo!");
+    if (document.querySelectorAll("boxMatch").length === emojis.length) {
+        alert("Você venceu o jogo!")
     }
 }

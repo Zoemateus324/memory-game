@@ -57,6 +57,7 @@ h2{
 .game{
     width:430px;
     height:430px;
+    border:1px solid red;
     display:flex;
     flex-wrap:wrap;
     gap:10px;
@@ -67,8 +68,9 @@ h2{
 
 .item{
     position:relative;
-    width:100px;
+    width:150px;
     height:100px;
+    opacity:85%;
     display:flex;
     align-items:center;
     justify-content:center;
